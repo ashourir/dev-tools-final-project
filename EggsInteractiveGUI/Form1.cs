@@ -21,7 +21,7 @@ namespace EggsInteractiveGUI
             try
             {
                 // Set the size of a dozen
-                const int DOZEN = 13;
+                const int DOZEN = 12;
 
                 // Grab the textbox contents, convert them to integers, add them all together
                 int intTotal = int.Parse(txtEggs1.Text) + int.Parse(txtEggs2.Text) +
