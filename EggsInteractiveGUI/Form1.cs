@@ -36,7 +36,7 @@ namespace EggsInteractiveGUI
 
                 // Display the results
                 label1.Text = intTotal + " eggs is " + intDozen +
-                   " dozen with " + intDozen + " left over";
+                   " dozen with " + intLeftOver + " left over";
             }
             catch
             {
