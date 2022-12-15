@@ -32,10 +32,10 @@ namespace EggsInteractiveGUI
                 int intDozen = intTotal / DOZEN;
 
                 // Calculate how many leftover eggs are not part of a full dozen
-                int intLeftOver = intTotal - intDozen;
+                int intLeftOver = intTotal - (intDozen*12);
 
                 // Display the results
-                label1.Text = intTotal + " eggs is " + intDozen +
+                lblResult.Text = intTotal + " eggs is " + intDozen +
                    " dozen with " + intLeftOver + " left over";
             }
             catch
