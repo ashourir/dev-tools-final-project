@@ -25,7 +25,7 @@ namespace EggsInteractiveGUI
 
                 // Grab the textbox contents, convert them to integers, add them all together
                 int intTotal = int.Parse(txtEggs1.Text) + int.Parse(txtEggs2.Text) +
-                    int.Parse(txtEggs3.Text) + int.Parse(txtEggs3.Text) +
+                    int.Parse(txtEggs3.Text) + int.Parse(txtEggs4.Text) +
                     int.Parse(txtEggs5.Text);
 
                 // Calculate how many "dozens" of eggs there are
